@@ -1,0 +1,38 @@
+<body>
+	{{> main_container}}
+</body>
+
+<template name="main_container">
+	<div id="container">
+		<div class="hero-unit">
+			<div class="page-header">
+				<h1>Admin <small>Förnamn Efternamn</small></h1>
+				<div id="import-party-data-container">
+					<label for="import-party-data">Importera partidata</label>
+					<input id="import-party-data" type="file">
+				</div>
+				<div id="import-candidate-data-container">
+					<label for="import-candidate-data">Importera kandidatdata</label>
+					<input id="import-candidate-data" type="file">
+				</div>
+				<div id="import-paper-vote-container">
+					<label for="import-paper-vote">Importera pappersröster</label>
+					<input id="import-paper-vote" type="file">
+				</div>
+				<div id="voting-phase-dates-container">
+					Röstningfas<br>
+					<label for="date-start">Start</label>
+					<input id="date-start" type="date" placeholder="Start">
+					<label for="date-stop">Slut</label>
+					<input id="date-stop" type="date" placeholder="Slut">
+
+				</div>
+				<div id="control-container">
+					<a class="btn btn-primary" href="#">Logga ut</a>
+					<a class="btn btn-primary" href="#">Spara</a>
+				</div>
+			</div>
+				
+			</div>
+	</div>
+</template>
